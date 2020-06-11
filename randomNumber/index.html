@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>randomNumber function</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="divText"></div>
+	<div id="divNumber"></div>
+
+
+    <script>
+    var divElement = document.querySelector('#divText');
+		divElement.innerHTML = `Random Number <br> (with 5 digits):`;
+
+		var divNumber = document.querySelector('#divNumber');
+		divNumber.innerHTML = randomNumber(5);
+    </script>
+</body>
+</html>
